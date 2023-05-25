@@ -84,3 +84,22 @@ JavaScript releases
 - ES7/ES2016
 - ...
 - New updates to JS every single year
+
+### Linking a JS file
+
+In the browser, all JS code need to be attached to an HTML
+file
+
+- Using inline script
+
+```html
+<script>
+  console.log('Hello Wolrd')
+</script>
+```
+
+- Using external JS file
+
+```html
+<script src='script.js'></script>
+```
