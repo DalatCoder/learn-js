@@ -322,3 +322,22 @@ switch(day) {
 - `statement` is like a bigger piece of code that is executed and which does not produce a value on itself
 
 Now, basically we write our whole programs as a sequence of actions. And these actions are statements.
+
+### The conditional (ternary) operator
+
+The conditional operator allows us to write something similar to an `if/else` statement but all in one line.
+
+`condition ? true : false`
+
+### JavaScript releases: ES5, ES6+ and ESNext
+
+Backwards compatibility: don't break the web
+
+- Old features are `never` removed
+- Not really new versions, just incremental updates (releases)
+- Websites keep working `forever`!
+
+There are not forwards compatible in JS, so how to use modern JS today? Because browsers that users are using might be old and there's no forwards compatibility.
+
+- During development: simply use the latest Google Chrome!
+- During production: use `babel` to transpile and polyfill your code(converting back to ES5 to ensure browser compatibility for all users)
