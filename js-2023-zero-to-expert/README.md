@@ -232,3 +232,22 @@ Convert string to number:
 Convert number to string:
 
 - `String(1)`
+
+### Truthy and falsy values
+
+- `falsy` values are values that are not exactly `false`, but will become `false` when we try to convert them into a `boolean`. There are only `5` falsy values in JS:
+  - `0`
+  - `''`
+  - `undefined`
+  - `null`
+  - `NaN`
+
+- Everything else are so-called `truthy` values.
+
+```js
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean(null))
+console.log(Boolean(NaN))
+console.log(Boolean(''))
+```
