@@ -189,3 +189,18 @@ There are many categories of operators:
 ### Operator precedence
 
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence)
+
+### Strings and template literals
+
+To concatenate strings, we use the `+` operator.
+
+We can use the backtick character ``` to build string easier
+
+```js
+const name = 'Hieu'
+const greeting = `Hello ${name}`
+
+console.log(greeting)
+```
+
+### Taking decisiions
