@@ -218,3 +218,17 @@ if (true) {
 We take decisions with code all the time which is essentially what we did here so that we can execute certain parts of our program based on certain condition
 
 `if-else` block is called `control structure`. And it is called a control structure because this structure actually allows us to have more control over the way that our code is executed
+
+### Type conversion and coercion
+
+- `type conversion` is when we manually convert from one type to another.
+- `type coercion` is when JS automatically converts type behind the scenes for us.
+
+Convert string to number:
+
+- `Number('1')`: `1`
+- `Number('a')`: `NaN`
+
+Convert number to string:
+
+- `String(1)`
