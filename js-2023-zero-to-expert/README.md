@@ -103,3 +103,60 @@ file
 ```html
 <script src='script.js'></script>
 ```
+
+### Values and Variables
+
+A value is basically a piece of data, it's the most fundamental unit of information that we have in programming
+
+```js
+console.log('Jonas')
+console.log(23)
+```
+
+Now, one extremely useful thing that we can do with value
+is to store them into variable, and so this way we can reuse them over and over again.
+
+Explain the code below:
+
+- We declare a variable named `firstName`
+- We assign the value of `Jonas` to this variable
+- We reassign the value of `John` to the variable
+
+```js
+let firstName = 'Jonas'
+console.log(firstName)
+
+firstName = 'John'
+console.log(firstName)
+```
+
+- Using `camelCase` to name variable in JS
+- Using `UPPERCASE` to name constant value: `const PI = 3.14`
+
+### Data types
+
+Value can be:
+
+- Object
+- Primitive (everything else)
+
+The 7 primitive data types:
+
+- Number: floating point numbers, used for decimals and integers
+- String: sequnce of characters, used for text
+- Boolean: logical type that can only be `true` or `false`, used for taking decisions
+- Undefined: value taken by a variable that is not yet defined (empty value)
+- Null: also means 'empty value'
+- Symbol: value that is unique and cannot be changed (not useful for now)
+- Big int: larger integers than the `Number` type can hold
+
+> JavaScript has dynamic typing: we do not have to manually define
+> the data type of the value stored in a variable. Instead, data types
+> are determined automatically
+
+Value has type, NOT variable!
+
+Using `typeof` operator to get the `type` of the value
+
+- `typeof null`: object (legacy bug in JS)
+- `typeof undefined`: undefined
