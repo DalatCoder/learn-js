@@ -172,3 +172,16 @@ It's a good practice to have as little variable `mutations` as possible because 
 
 - `var` is the old way to declare new variables
 - We can declare the variable without using the `let`, `const` or `var` keyword, the variable will be placed at the property of the global object (`window` object)
+
+### Basic operators
+
+An operator basically allows us to transform values or combine multiple values are really do all kinds of work with values.
+
+There are many categories of operators:
+
+- Mathematical operators: +, -, *, /, **
+- Concatenate strings: +
+- Comparison operators: >, <, ==, ===
+- Logical operators: &&, ||, !
+- Assignment operators: =, +=, -=, ++, --,...
+- ...
