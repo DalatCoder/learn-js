@@ -204,3 +204,17 @@ console.log(greeting)
 ```
 
 ### Taking decisiions
+
+- `if(condition)`: condition is being `boolean` value
+
+```js
+if (true) {
+  console.log(true)
+} else {
+  console.log(false)
+}
+```
+
+We take decisions with code all the time which is essentially what we did here so that we can execute certain parts of our program based on certain condition
+
+`if-else` block is called `control structure`. And it is called a control structure because this structure actually allows us to have more control over the way that our code is executed
