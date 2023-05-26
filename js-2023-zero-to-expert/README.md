@@ -311,3 +311,14 @@ switch(day) {
     console.log('Not a valid day')
 }
 ```
+
+### Statements and Expressions
+
+- An `expression` is a piece of code that produces a `value`
+  - `4 + 4`
+  - `2000`
+  - `true && false && !false`
+
+- `statement` is like a bigger piece of code that is executed and which does not produce a value on itself
+
+Now, basically we write our whole programs as a sequence of actions. And these actions are statements.
