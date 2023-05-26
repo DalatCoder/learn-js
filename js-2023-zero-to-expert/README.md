@@ -185,3 +185,7 @@ There are many categories of operators:
 - Logical operators: &&, ||, !
 - Assignment operators: =, +=, -=, ++, --,...
 - ...
+
+### Operator precedence
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence)
