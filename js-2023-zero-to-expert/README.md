@@ -251,3 +251,10 @@ console.log(Boolean(null))
 console.log(Boolean(NaN))
 console.log(Boolean(''))
 ```
+
+### Equality operators: `==` vs. `===`
+
+- `===`: strict equality operator, it does not perform `type coercion`
+- `==`: loose equality operator, it perform `type coercion`
+
+> Avoid using the `==` as much as you can
