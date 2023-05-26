@@ -258,3 +258,25 @@ console.log(Boolean(''))
 - `==`: loose equality operator, it perform `type coercion`
 
 > Avoid using the `==` as much as you can
+
+### Boolean logic
+
+Boolean logic is a branch of computer science, which uses `true` and `false` values to solve complex logical problems
+
+The `true` table
+
+`and` operator: `true` when ALL are `true`
+
+- `true` and `true`: true
+- `true` and `false`: false
+- `false` and `true`: false
+- `false` and `false`: false
+
+`or` operator: `true` when ONE is `true`
+
+- `true` and `true`: true
+- `true` and `false`: true
+- `false` and `true`: true
+- `false` and `false`: false
+
+`not` operator: inverts `true/false` value
