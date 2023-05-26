@@ -160,3 +160,15 @@ Using `typeof` operator to get the `type` of the value
 
 - `typeof null`: object (legacy bug in JS)
 - `typeof undefined`: undefined
+
+### Declaring variables
+
+- `let`: declare variables that can be changed later (`reassign` new value to the variable, or `mutate` the variable)
+- `const`: declare variables that are not supposed to change (`immutable`)
+
+As a best pratice for writing clean code, I always recommend to use `const` by default and `let` only when you are really sure that the variable needs to change at some point in the future.
+
+It's a good practice to have as little variable `mutations` as possible because changing variable introduces a potential to create bugs.
+
+- `var` is the old way to declare new variables
+- We can declare the variable without using the `let`, `const` or `var` keyword, the variable will be placed at the property of the global object (`window` object)
