@@ -518,3 +518,48 @@ Check if the element contains inside the array
 friends.include('John') // true
 friends.include('Ariel') // false
 ```
+
+### Introduction to Objects
+
+Object is a `data structure` in JS.
+
+Object contains `key-value` pairs
+
+```js
+const jonas = {
+  firstName: 'Jonas',
+  lastName: 'Schmedmann'
+}
+```
+
+Objects are probably the most fundamental concept in the
+whole of JS language. So there are many ways of creating
+objects.
+
+- Object literal syntax: `{}`
+
+### Dot vs. Bracket notation
+
+The order of properties inside the object is not matter.
+
+The are 2 ways to get value of a property:
+
+- Using dot (`.`) operator: `jonas.firstName`
+- Using bracket notation (`[]`): `jonas['firstName']`.
+  Inside the `[]`, we can put anything that produce a value (`expressions`)
+
+`undefined` is what we get when try to access a property
+on an object that does not exist.
+
+### Object methods
+
+We can add functions to an object, an all these functions
+are called `methods`
+
+```js
+const jonas = {
+  hello: function() {
+    return 'Hello'
+  }
+}
+```
