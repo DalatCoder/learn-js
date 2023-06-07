@@ -449,3 +449,72 @@ data.
 The anatomy of a function
 
 ![Image](assets/functionanatomy.png)
+
+### Introduction to Array
+
+Array is a `data structure`. We can create an array by using:
+
+- Array literal: `[]`
+- Array function: `new Array()`
+
+```js
+const friends = ['Michael', 'Steven', 'Peter']
+const years = new Array(1991, 1984, 2008)
+```
+
+To get element from the array, we use `[]`
+
+```js
+const f = friends[0] // the first element
+const f2 = friends[1] // the second element
+
+const fn = friends[friends.length - 1] // the last element
+```
+
+Change the element inside the array, we can `mutate` the
+element inside the array
+
+```js
+friends[1] = 'John'
+```
+
+### Basic array operations
+
+JS has some built-in functions that we can basically apply
+directly on arrays. And these are called methods and we
+can think of methods as array operations basically.
+
+Add new element to the array
+
+```js
+const friends = ['Michael']
+
+// end
+friends.push('John')
+
+// start
+friends.unshift('Peter')
+```
+
+Remove element from the array
+
+```js
+// remove the last element
+const e = friends.pop()
+
+// remove the first element
+const f = friends.shift()
+```
+
+Get index of a element
+
+```js
+const i = friends.index('Steven')
+```
+
+Check if the element contains inside the array
+
+```js
+friends.include('John') // true
+friends.include('Ariel') // false
+```
