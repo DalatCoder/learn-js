@@ -341,3 +341,111 @@ There are not forwards compatible in JS, so how to use modern JS today? Because 
 
 - During development: simply use the latest Google Chrome!
 - During production: use `babel` to transpile and polyfill your code(converting back to ES5 to ensure browser compatibility for all users)
+
+## JS fundamentals - Part 2
+
+### Strict mode
+
+Strict mode is a special mode in JS to help us write more
+secure code easily.
+
+```js
+// first line of code
+'use strict'
+
+// other codes
+```
+
+### Functions
+
+A function is simply a piece of code that we can reuse over and over again in our code.
+
+So it's a bit like a variable but for whole chunk of code.
+
+```js
+function fn() {
+  // function body
+}
+
+// invoking the function
+fn()
+```
+
+Functions can accept one or more input parameters
+
+```js
+function fn(name) {
+  //
+}
+
+fn('Hieu')
+```
+
+### Function declarations vs. Expressions
+
+In JS, there is different ways of writing functions. And
+each type of function works in a slightly
+different way.
+
+Function declaration, we use the `function` keyword to declare new function
+
+```js
+function fn(params) {
+  // body
+}
+```
+
+Function expression, we define a function and assign it
+to a variable. In JS, function is just a value.
+
+```js
+const fn = function (params) {
+  // body
+}
+```
+
+We can call the function before it define by using `function declaration`
+
+```js
+fn() 
+
+function fn() {
+
+}
+```
+
+Personally, I prefer to use function expressions because
+this then forces me into a nice structure where I have to
+define all the functions before I can use them. I also
+like to have everything stored in variables, so both
+values and functions.
+
+### Arrow functions
+
+An arrow function is simply a special form of function
+expression that is shorter and faster to write.
+
+```js
+const fn = () => ''
+const fn = (params) => params
+```
+
+### Functions calling other functions
+
+```js
+const fn1 = () => 1
+const fn2 = () => 2
+
+const fn3 = () => fn1() + fn2()
+```
+
+### Reviewing functions
+
+3 type of functions in JS. Three different ways of writing functions, but they all work in a similar way: receive `input` data, `transform` data, and then `output`
+data.
+
+![Image](assets/functiontypes.png)
+
+The anatomy of a function
+
+![Image](assets/functionanatomy.png)
