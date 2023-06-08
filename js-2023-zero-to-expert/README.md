@@ -563,3 +563,101 @@ const jonas = {
   }
 }
 ```
+
+## Developer skills & Editor setup
+
+### Setting up Prettier and VSCode
+
+- Code editor: VSCode
+- Formatter: Prettier extension for VSCode
+
+Configure Prettier:
+
+- Create file named `.prettierrc`
+- `singleQuote: true`
+- `arrowParens: "avoid`
+
+### Installing nodejs and setting up a dev environment
+
+We can install a development tool called `live-server` to
+automatically reload the web browser when the source code changed.
+
+- Install NodeJS: `node -v`
+- Install `live-server` package: `npm install live-server -g`
+- Type command `live-server` in the terminal
+
+### Learning how to code
+
+How to `fail`:
+
+- He didn't have a clear goal at the beginning of his journey
+- He started by watching courses and reading tutorials, but he would just copy the code without caring how it works. Sometimes he would just copy and paste code
+- He didn't reinforce what he was learning by doing small challenges or taking notes
+- He didn't practice coding, and didn't come up with his own project ideas
+- He quickly became frustrated when his code was not perfectly clean or efficient
+
+### How to think like a developer: become a problem solver
+
+Solving problem is one of the most important things in programming. So if your goal is to become a greate programmer, you need to learn how to deal with problems effectively.
+
+Fail:
+
+- He jumps at the problem without much thinking
+- He implements his solution in an unstructured way
+- He gets stressed out when things don't work
+- He is too proud to research solutions
+
+Fix:
+
+- Stay calm and slow down, don't just jump at a problem without a plan
+- Take a very logical and rational approach (programming is just logic, in the end...)
+- Use `4-step` framework to solve any problem
+
+Step 1: Make sure you 100% understand the problem. Ask the right questions to get a clear picture of the problem
+
+Step 2: Divide and conquer: break a big problem into smaller sub-problems
+
+Step 3: Don't be afraid to do as much research as you have to
+
+Step 4: For bigger problems, write pseudo-code before writing the actual code
+
+### Using Google, StackOverflow and MDN
+
+### Debugging (Fixing errors)
+
+> Find and fix errors
+
+Software bug: defect or problem in a computer program. Basically, any unexpected or uninteded behavior of a computer program is a software bug.
+
+Bugs are completely normal in software development
+
+Identify bug (becoming aware that there is a bug):
+
+- During development
+- Testing software
+- User reports during production
+- Context: browsers, users, etc.
+
+Find (Isolating where exactly the bug is happening in code)
+
+- Developer console (simple code)
+- Debugger (complex code)
+
+Fix (correct the bug)
+
+- Replace wrong solution with new correct solution
+
+Prevent (preventing it from happening again)
+
+- Searching for the same bug in similar code
+- Writing test using testing software
+
+### Debugging with the console and breakpoints
+
+Set breakpoints
+
+- Open developer console
+- Go to `sources` tab
+- Set breakpoint and start debugging
+
+Or place the `debugger` inside the source code
