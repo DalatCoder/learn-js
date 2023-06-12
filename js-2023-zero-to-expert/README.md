@@ -661,3 +661,29 @@ Set breakpoints
 - Set breakpoint and start debugging
 
 Or place the `debugger` inside the source code
+
+### JS in the Browser: DOM and Events fundamentals
+
+#### Project: Guess my number
+
+Initial files at `./01.guess-my-number`
+
+#### What's the DOM and DOM manipulation
+
+What is the DOM?
+
+> DOM: Document Object Model, structured representation of HTML documents,
+> allows JS to access HTML elements and styles to manipulate them.
+
+The DOM is the connection point between HTML and JS.
+
+Whatever is in the HTML document also has to be in the DOM. The DOM really is
+a complete representation of the HTML document, so that we can manipulate it
+in complex ways.
+
+![Image](assets/dom.png)
+
+The DOM, DOM methods and properties for DOM manipulation are not part of
+the JS language. They are actually part of something called the `web APIs`.
+
+![Image](assets/domvsjs.png)
